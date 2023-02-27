@@ -735,9 +735,6 @@ footer{
       font-size: 40px;
     }
 
-    .descripcion .contenedor .seccion-texto{
-        font-size: 13px;
-    }
     .cards{
         padding:10px;
     }
@@ -777,6 +774,10 @@ footer{
     }
     .main .sobre-mi .hero-principal{
         padding: 0;
+    }
+    
+    .descripcion .contenedor .seccion-texto{
+        font-size: 13px;
     }
   }
   
