@@ -46,14 +46,11 @@ main .sobre-mi{
 }
 
 main .sobre-mi .hero-imagen-desarrollador {
-    width: 300px;
+    max-width: 300px;
     height: 300px;
     margin: 20px;
 }
 
-main .sobre-mi .hero-principal {
-    padding: 3rem;
-}
 
 main .sobre-mi .hero-principal h2 {
     font-size: 1rem;
@@ -113,7 +110,7 @@ main .sobre-mi .title-word-3 {
 }
 
 main .conocimientos {
-    height: 500px;
+    min-height: 500px;
     padding: 10px;
 }
 
@@ -741,10 +738,11 @@ footer{
     .descripcion .contenedor .seccion-texto{
         font-size: 13px;
     }
-    .conocimientos{
-        margin-top: 100px;
+    .cards{
+        padding:10px;
     }
-  }
+
+}
 
   
 @media screen and (max-width: 520px) {
@@ -776,6 +774,9 @@ footer{
   
     .screen-body-item {
       padding: 0;
+    }
+    .main .sobre-mi .hero-principal{
+        padding: 0;
     }
   }
   
